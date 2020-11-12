@@ -1,0 +1,18 @@
+﻿  main.cpp
+C:\Users\tunafish117\Documents\Dev\cpp\OpenGlRenderer\OpenGlRenderer\src\Camera.h(26,38): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\tunafish117\Documents\Dev\cpp\OpenGlRenderer\OpenGlRenderer\src\Camera.h(31,45): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\tunafish117\Documents\Dev\cpp\OpenGlRenderer\OpenGlRenderer\src\Camera.h(33,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Users\tunafish117\Documents\Dev\cpp\OpenGlRenderer\Dependencies\GLFW\include\GLFW\glfw3.h(104): message : see previous definition of 'APIENTRY'
+C:\Users\tunafish117\Documents\Dev\cpp\OpenGlRenderer\OpenGlRenderer\src\vertexData.h(181,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\tunafish117\Documents\Dev\cpp\OpenGlRenderer\OpenGlRenderer\src\vertexData.h(336,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\tunafish117\Documents\Dev\cpp\OpenGlRenderer\OpenGlRenderer\src\vertexData.h(446,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\tunafish117\Documents\Dev\cpp\OpenGlRenderer\OpenGlRenderer\src\vertexData.h(541,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\tunafish117\Documents\Dev\cpp\OpenGlRenderer\OpenGlRenderer\src\main.cpp(84,45): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tunafish117\Documents\Dev\cpp\OpenGlRenderer\OpenGlRenderer\src\main.cpp(286,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\tunafish117\Documents\Dev\cpp\OpenGlRenderer\OpenGlRenderer\src\main.cpp(323,69): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tunafish117\Documents\Dev\cpp\OpenGlRenderer\OpenGlRenderer\src\main.cpp(324,67): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tunafish117\Documents\Dev\cpp\OpenGlRenderer\OpenGlRenderer\src\main.cpp(355,66): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tunafish117\Documents\Dev\cpp\OpenGlRenderer\OpenGlRenderer\src\main.cpp(356,67): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tunafish117\Documents\Dev\cpp\OpenGlRenderer\OpenGlRenderer\src\main.cpp(504,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  OpenGlRenderer.vcxproj -> C:\Users\tunafish117\Documents\Dev\cpp\OpenGlRenderer\Debug\OpenGlRenderer.exe
