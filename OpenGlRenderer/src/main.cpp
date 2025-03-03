@@ -373,10 +373,13 @@ int main(void)
 
 				// Imgui stuff
 				{
-					//ShowDemoWindowLayout();
+					//ImGui::ShowDemoWindow();
 
 					ImGui::Begin("Editor");
 					ImGui::Text("Application average %.3f ms/frame (%.1f FPS)", 1000.0f / ImGui::GetIO().Framerate, ImGui::GetIO().Framerate);
+					ImGui::TextColored(ImVec4(0.9, 0.1, 0.1, 1), "Hold Mouse right click to move and look around");
+					
+					ImGui::Separator();
 
 					showDirLightControls(dirLight);
 					for (int i = 0; i < numPtLight; ++i)

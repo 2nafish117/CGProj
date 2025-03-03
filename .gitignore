@@ -1,2 +1,8 @@
 .vs/
 **.pdb
+Debug/
+Release/
+x64/
+OpenGlRenderer/Debug/
+OpenGlRenderer/Release/
+OpenGlRenderer/x64/

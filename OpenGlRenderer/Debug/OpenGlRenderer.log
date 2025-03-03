@@ -2153,20 +2153,23 @@ D:\Dev\CGProj\OpenGlRenderer\src\vertexData.h(540,41): warning C4305: 'initializ
 D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(85,37): warning C4305: 'argument': truncation from 'double' to 'float'
 D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(85,32): warning C4305: 'argument': truncation from 'double' to 'float'
 D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(85,27): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(296,23): warning C4018: '<': signed/unsigned mismatch
-D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(333,65): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(333,59): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(333,53): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(334,64): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(334,59): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(334,54): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(365,63): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(365,58): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(365,53): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(366,64): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(366,59): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(366,54): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(514,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(282,23): warning C4018: '<': signed/unsigned mismatch
+D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(319,65): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(319,59): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(319,53): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(320,64): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(320,59): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(320,54): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(351,63): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(351,58): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(351,53): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(352,64): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(352,59): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(352,54): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(380,42): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(380,37): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(380,32): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Dev\CGProj\OpenGlRenderer\src\main.cpp(503,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   Generating Code...
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
 LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
