@@ -5,11 +5,6 @@
 #include "GLError.h"
 #include "OpenGLDependencies.h"
 
-/*
-zlibd.lib
-zlibstatic.lib
-assimp-vc141-mt.lib
-*/
 class VertexArray;
 class IndexBuffer;
 class ShaderProgram;

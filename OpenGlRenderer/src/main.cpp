@@ -1,21 +1,21 @@
 #include "OpenGLDependencies.h"
 #include "Util.h"
+#include "Geometry/Geometry.h"
+#include "Lighting/Lighting.h"
+#include "Material/Material.h"
 #include "Renderer.h"
-#include "Geometry.h"
 #include "Camera.h"
 
-#include "Lighting.h"
-
-#include "glm/glm.hpp"
-#include "glm/gtc/matrix_transform.hpp"
-#include "glm/gtc/type_ptr.hpp"
-#include "glm/gtx/quaternion.hpp"
-
-#include "imgui/imgui.h"
-#include "imgui/imgui_impl_glfw.h"
-#include "imgui/imgui_impl_opengl3.h"
-
 #include "PhoneDataLink.h"
+
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
+#include <glm/gtx/quaternion.hpp>
+
+#include <imgui/imgui.h>
+#include <imgui/imgui_impl_glfw.h>
+#include <imgui/imgui_impl_opengl3.h>
 
 // forward declaration, definitions at end of main.cpp
 static void showDirLightControls(DirLight& dirLight);
@@ -51,12 +51,11 @@ int main(void)
 
 	glfwSetInputMode(mWindow, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
-	GLenum err = glewInit();
-	if (err != 0)
-	{
-		std::cerr << "glewInit failed with error code " << err << "\n";
+	if (!gladLoadGL()) {
+		printf("Something went wrong!\n");
 		return EXIT_FAILURE;
 	}
+
 	// start of empty scope
 	{
 #include "vertexData.h"

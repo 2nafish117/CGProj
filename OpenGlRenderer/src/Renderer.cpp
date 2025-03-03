@@ -1,6 +1,6 @@
 #include "Renderer.h"
 
-#include "Geometry.h"
+#include "Geometry/Geometry.h"
 
 Renderer::Renderer()
 {

@@ -1,4 +1,5 @@
 #include "Material.h"
+
 #include <cassert>
 
 void Material::bind() const

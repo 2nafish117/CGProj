@@ -5,7 +5,7 @@
 #include "glm/gtc/type_ptr.hpp"
 
 #include "ShaderProgram.h"
-#include "Texture.h"
+#include "Geometry/Texture.h"
 
 class Material
 {

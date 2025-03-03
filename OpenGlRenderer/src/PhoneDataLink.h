@@ -2,6 +2,8 @@
 
 #define _WINSOCK_DEPRECATED_NO_WARNINGS
 
+// windows defines min and max as macros, we do not want them
+#define NOMINMAX
 #include <stdio.h>
 #include <winsock2.h>
 

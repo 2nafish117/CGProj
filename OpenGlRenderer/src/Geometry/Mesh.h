@@ -2,12 +2,12 @@
 
 #include <vector>
 
-#include "glm/glm.hpp"
-#include "glm/gtc/matrix_transform.hpp"
-#include "glm/gtc/type_ptr.hpp"
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
 
 #include "Geometry.h"
-#include "Material.h"
+#include "Material/Material.h"
 #include "OpenGlDependencies.h"
 
 struct Vertex 
