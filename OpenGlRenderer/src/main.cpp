@@ -344,13 +344,14 @@ int main(void)
 				}
 
 				model = glm::mat4(1.0f);
+				model = glm::translate(model, glm::vec3(0, 1, 3));
 				
 				model = glm::translate(model, carPos);
 				hardLitSurfaceShader.setMatrix4fv("uModel", glm::value_ptr(model));
 				hardLitSurfaceShader.set3f("uMaterial.diffuse", 0.7, 0.7, 0.7);
 				hardLitSurfaceShader.set3f("uMaterial.specular", 0.9, 0.9, 0.9);
 
-				//mRenderer.draw(cyberTruckVA, cyberTruckIB, hardLitSurfaceShader);
+				mRenderer.draw(cyberTruckVA, cyberTruckIB, hardLitSurfaceShader);
 
 				// light boxes
 				lightShader.bind();
