@@ -9,6 +9,9 @@
 
 #pragma comment(lib,"ws2_32.lib") //Winsock Library
 
+// uncomment to connect to the phone
+//#define PHONE_LINK
+
 // OLD FORMAT: 2843298.60868, 3,   0.915,  5.765,  7.887, 4,  -0.043,  0.045,  0.000 
 // NEW FORMAT: vec3 : gameRotation, vec3 : gravity, vec3 : linearAcceleration
 
@@ -28,6 +31,8 @@ class PhoneDataLink
 public:
 	PhoneDataLink()
 	{
+#ifdef PHONE_LINK
+
 		mBuf = new char[BUFF_LEN];
 		mLen = 0;
 
@@ -62,17 +67,22 @@ public:
 			exit(EXIT_FAILURE);
 		}
 		//puts(" Bind done");
+
+#endif // DEBUG
 	}
 
 	~PhoneDataLink()
 	{
+#ifdef PHONE_LINK
 		delete[] mBuf;
 		closesocket(mSocket);
 		WSACleanup();
+#endif
 	}
 
 	void recvPhonePosData(PhoneSensorData* oPhone)
 	{
+#ifdef PHONE_LINK
 		//clear the buffer by filling null, it might have previously received data
 		memset(mBuf, NULL, BUFF_LEN);
 
@@ -89,6 +99,12 @@ public:
 			&oPhone->rot.x, &oPhone->rot.y, &oPhone->rot.z,
 			&oPhone->grav.x, &oPhone->grav.y, &oPhone->grav.z,
 			&oPhone->accel.x, &oPhone->accel.y, &oPhone->accel.z);
+#else
+		oPhone->accel = {};
+		oPhone->grav = {};
+		oPhone->rot = {};
+#endif
+
 		return;
 	}
 
